@@ -4,7 +4,7 @@
 </template>
 
 <script>
-    import QRCode from '@keeex/qrcodejs-kx'
+    import QRCode from './libs/qrcode.js'
     export default {
 
         props: {
@@ -13,11 +13,11 @@
             color: {type: String, required: false, default: '#000'},
             bgColor: {type: String, required: false, default: '#FFF'},
             errorLevel: {
-                type: String, 
+                type: String,
                 validator: function (value) {
                     return value === 'L' || value === 'M' || value === 'Q' || value === 'H'
-                }, 
-                required: false, 
+                },
+                required: false,
                 default: 'H'
             }
         },

@@ -1,25 +1,29 @@
 # vue-qrcode-component
-Create QR codes with a simple Vue component
 
-## [Demo and Documentation on GitHub Pages](https://gerardreches.github.io/vue-qrcode-component/)
+Create QR codes with a simple Vue component, forked from <a chref="https://github.com/gerardreches/vue-qrcode-component">gerardreches/vue-qrcode-component</a> and updated for Vue 3 and Vite.
+
+[Demo and Documentation on GitHub Pages](https://walokra.github.io/vue-qrcode-component/)
 
 ## Installation
 
-Install the package: 
-```
-// Using NPM
-npm install vue-qrcode-component
+Install the package:
 
-// or Yarn
-yarn add vue-qrcode-component
+```shell
+npm install vue-qrcode-component
 ```
+
 Then register the component:
+
 ```js
-import Vue from 'vue'
+import { createApp } from 'vue'
 import VueQRCodeComponent from 'vue-qrcode-component'
-Vue.component('qr-code', VueQRCodeComponent)
+
+const app = createApp(App)
+app.component('qr-code', VueQRCodeComponent)
 ```
-Now you can use it as
+
+Now you can use it as:
+
 ```html
 <qr-code text="Text to encode"></qr-code>
 ```
@@ -43,15 +47,11 @@ _**Note:** size prop uses pixels units._
 We will generate a QR code that gives an URL on decode. It measures 500x500 px, uses a yellow color for the code and a blue color for the background. This QR will use a **Low** error correction level.
 
 ```html
-<qr-code 
+<qr-code
     text="https://goo.gl/9eIWP9"
     size="500"
     color="#f1c40f"
-    bg-color="#3498db" 
+    bg-color="#3498db"
     error-level="L">
 </qr-code>
 ```
-
-## Help
-
-Feel free to open an issue if you have any problem using this component.

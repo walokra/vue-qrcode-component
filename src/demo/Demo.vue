@@ -2,9 +2,9 @@
   <article class="container-fluid bg-faded">
 
       <header class="row bg-success d-flex flex-column justify-content-center align-items-center py-5">
-          <h1 class="text-center text-white mb-4"><strong>vue-qrcode-component</strong></h1>
+          <h1 class="text-center text-white mb-4"><strong>vue-qrcode-component-v3</strong></h1>
           <h4 class="text-center text-white mb-4">Create QR codes with a simple Vue component</h4>
-          <span class="text-white"><a class="text-white" href="https://github.com/walokra/vue-qrcode-component">View on Github</a></span>
+          <span class="text-white"><a class="text-white" href="https://github.com/walokra/vue-qrcode-component-v3">View on Github</a></span>
       </header>
 
       <div id="app" class="container">
@@ -15,7 +15,7 @@
                   </h2>
 
                   <p>
-                      Follow the <a href="https://github.com/walokra/vue-qrcode-component#installation">Installation guide</a> before trying to reproduce any of the following examples.
+                      Follow the <a href="https://github.com/walokra/vue-qrcode-component-v3#installation">Installation guide</a> before trying to reproduce any of the following examples.
                   </p>
 
                   <p>
@@ -27,7 +27,7 @@
                   <code class="d-block bg-inverse text-white rounded p-4">
                       <span class="text-warning">import</span> <var>Vue</var> <span class="text-warning">from</span> 'vue'
                       <br>
-                      <span class="text-warning">import</span> <var>VueQRCodeComponent</var> <span class="text-warning">from</span> 'vue-qrcode-component'
+                      <span class="text-warning">import</span> <var>VueQRCodeComponent</var> <span class="text-warning">from</span> 'vue-qrcode-component-v3'
                       <br><br>
 
                       <span class="text-muted">// Register the Vue component</span>
@@ -109,7 +109,7 @@
                   </p>
 
                   <p>
-                      Colors can be changed using <var>color</var> (defualt #000) and <var>bg-color</var> (default #FFF) props.
+                      Colors can be changed using <var>color</var> (default #000) and <var>bg-color</var> (default #FFF) props.
                   </p>
 
                   <p>
@@ -166,7 +166,7 @@
       </div>
 
       <section class="row bg-success py-5 justify-content-center">
-          forked from <a class="text-white" href="https://github.com/gerardreches/vue-qrcode-component">gerardreches/vue-qrcode-component</a><span class="text-white">by <a class="text-white font-weight-bold" href="https://gerardreches.com">Gerard Reches</a></span>
+          forked from&nbsp;<a class="text-white" href="https://github.com/gerardreches/vue-qrcode-component">gerardreches/vue-qrcode-component</a>&nbsp;<span class="text-white">by</span>&nbsp;<a class="text-white font-weight-bold" href="https://gerardreches.com">Gerard Reches</a>&nbsp;and updated for Vue 3
       </section>
   </article>
 </template>

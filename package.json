@@ -1,5 +1,5 @@
 {
-  "name": "vue-qrcode-component",
+  "name": "vue-qrcode-component-v3",
   "version": "3.0.0",
   "description": "Create QR codes with a simple Vue component",
   "main": "src/QRCode.vue",
@@ -17,11 +17,11 @@
     "component"
   ],
   "author": "Marko Wallin <marko.wallin@iki.fi>",
-  "url": "https://github.com/walokra/vue-qrcode-component/issues",
+  "url": "https://github.com/walokra/vue-qrcode-component-v3/issues",
   "email": "marko.wallin@iki.fi",
   "repository": {
     "type": "git",
-    "url": "https://github.com/walokra/vue-qrcode-component.git"
+    "url": "https://github.com/walokra/vue-qrcode-component-v3.git"
   },
   "files": [
     "src/libs",

@@ -1,8 +1,14 @@
 {
-  "name": "vue-qrcode-component",
-  "version": "2.1.1",
+  "name": "vue-qrcode-component-v3",
+  "version": "3.0.0",
   "description": "Create QR codes with a simple Vue component",
   "main": "src/QRCode.vue",
+  "scripts": {
+    "dev": "vite",
+    "clean": "rm -rf docs",
+    "build": "npm run clean && vite build",
+    "preview": "vite preview"
+  },
   "keywords": [
     "qr",
     "code",
@@ -10,31 +16,23 @@
     "vue",
     "component"
   ],
-  "author": "Gerard Reches <gerardreches@gmail.com> (https://www.gerardreches.com)",
-  "url": "https://github.com/gerardreches/vue-qrcode-component/issues",
-  "email": "gerardreches@gmail.com",
+  "author": "Marko Wallin <marko.wallin@iki.fi>",
+  "url": "https://github.com/walokra/vue-qrcode-component-v3/issues",
+  "email": "marko.wallin@iki.fi",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gerardreches/vue-qrcode-component.git"
+    "url": "https://github.com/walokra/vue-qrcode-component-v3.git"
   },
+  "files": [
+    "src/libs",
+    "src/QRCode.vue"
+  ],
   "license": "MIT",
   "dependencies": {
-    "vue": "^2.0.1",
-    "@keeex/qrcodejs-kx": "^1.0.2"
+    "vue": "^3.1.0"
   },
-  "browserify": {
-    "transform": [
-      [
-        "babelify",
-        {
-          "presets": [
-            "es2015"
-          ]
-        }
-      ],
-      [
-        "vueify"
-      ]
-    ]
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "vite": "^4.0.4"
   }
 }
